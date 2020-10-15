@@ -702,36 +702,37 @@ body {
     }
   }
   &__content-promo {
-    // max-width: 280px;
+    max-width: 280px;
   }
   &__content-img {
-    // height: 168px;
     overflow: hidden;
     position: relative;
     padding: 0 0 58% 0;
-    // &::before {
-    //   content: '';
-    //   position: absolute;
-    //   width: 130px;
-    //   height: 130px;
-    //   border-radius: 50%;
-    //   background-color: #fff;
-    //   top: 19px;
-    //   right: 75px;
-    // }
-    // &::after {
-    //   content: 'скидка до 15%';
-    //   position: absolute;
-    //   top: 57px;
-    //   right: 93px;
-    //   font-family: 'Montserrat', sans-serif;
-    //   font-size: 21px;
-    //   line-height: 28px;
-    //   color: #2287c9;
-    //   font-weight: 700;
-    //   max-width: 90px;
-    //   text-align: center;
-    // }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 46%;
+      height: 80%;
+      border-radius: 50%;
+      background-color: #fff;
+      top: 10%;
+      right: 27%;
+      z-index: 1;
+    }
+    &::after {
+      content: 'скидка до 15%';
+      position: absolute;
+      top: 33%;
+      right: 33%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 21px;
+      line-height: 28px;
+      color: #2287c9;
+      font-weight: 700;
+      max-width: 90px;
+      text-align: center;
+      z-index: 2;
+    }
     img {
       position: absolute;
       top: 0;

@@ -786,10 +786,38 @@ body img {
 .footer__content-btn + .footer__content-btn {
   margin-top: 28px;
 }
+.footer__content-promo {
+  max-width: 280px;
+}
 .footer__content-img {
   overflow: hidden;
   position: relative;
   padding: 0 0 58% 0;
+}
+.footer__content-img::before {
+  content: '';
+  position: absolute;
+  width: 46%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 10%;
+  right: 27%;
+  z-index: 1;
+}
+.footer__content-img::after {
+  content: 'скидка до 15%';
+  position: absolute;
+  top: 33%;
+  right: 33%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  line-height: 28px;
+  color: #2287c9;
+  font-weight: 700;
+  max-width: 90px;
+  text-align: center;
+  z-index: 2;
 }
 .footer__content-img img {
   position: absolute;
