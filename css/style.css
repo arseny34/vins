@@ -185,6 +185,7 @@ body img {
 .menu__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .menu__item {
   font-size: 14px;
@@ -196,7 +197,10 @@ body img {
 }
 .menu__link {
   display: inline-block;
-  padding: 18px 0 18px 0;
+  padding: 18px 10px 18px 10px;
+}
+.menu__drop-down {
+  display: none;
 }
 
 .about {

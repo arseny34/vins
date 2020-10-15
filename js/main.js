@@ -1,4 +1,8 @@
 $(function () {
+  $('.menu__drop-down').click(function (event) {
+    $('.menu__drop-down, .menu__list').toggleClass('menu__drop-down--active');
+  });
+
   $('.reviews__slider, .news__slider').slick({
     infinite: true,
     slidesToShow: 3,

@@ -101,6 +101,7 @@ body {
   &__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   &__item {
     font-size: 14px;
@@ -112,7 +113,10 @@ body {
   }
   &__link {
     display: inline-block;
-    padding: 18px 0 18px 0;
+    padding: 18px 10px 18px 10px;
+  }
+  &__drop-down {
+    display: none;
   }
 }
 
