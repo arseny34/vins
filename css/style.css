@@ -105,7 +105,6 @@ body img {
 }
 .header__logo-img {
   overflow: hidden;
-  min-width: 100px;
 }
 .header__logo-img img {
   object-fit: contain;
