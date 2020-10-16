@@ -1,4 +1,9 @@
 $(function () {
+  $('.header__burger').click(function (event) {
+    $('.header__burger, .header__menu').toggleClass('header__burger--active');
+    $('body').toggleClass('lock');
+  });
+
   $('.menu__drop-down').click(function (event) {
     $('.menu__drop-down, .menu__list').toggleClass('menu__drop-down--active');
   });

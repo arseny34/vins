@@ -11,6 +11,19 @@ body {
 
 .header {
   margin-bottom: 30px;
+  &-mobile {
+    display: none;
+  }
+  &__logo-link {
+    display: block;
+  }
+  &__logo-img {
+    overflow: hidden;
+    min-width: 100px;
+    img {
+      object-fit: contain;
+    }
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -69,6 +82,9 @@ body {
     &:hover {
       filter: none;
     }
+  }
+  &__burger {
+    display: none;
   }
 }
 

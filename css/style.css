@@ -97,6 +97,19 @@ body img {
 .header {
   margin-bottom: 30px;
 }
+.header-mobile {
+  display: none;
+}
+.header__logo-link {
+  display: block;
+}
+.header__logo-img {
+  overflow: hidden;
+  min-width: 100px;
+}
+.header__logo-img img {
+  object-fit: contain;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -155,6 +168,9 @@ body img {
 }
 .header__social-img:hover {
   filter: none;
+}
+.header__burger {
+  display: none;
 }
 
 .messengers__icons-list {
